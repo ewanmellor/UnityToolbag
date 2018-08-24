@@ -89,13 +89,13 @@ namespace UnityToolbag
         /// </summary>
         public new Light light { get { return _light ? _light : (_light = GetComponent<Light>()); } }
 
-        [HideInInspector, NonSerialized]
-        private NetworkView _networkView;
+        //[HideInInspector, NonSerialized]
+        //private NetworkView _networkView;
 
-        /// <summary>
-        /// Gets the NetworkView attached to the object.
-        /// </summary>
-        public new NetworkView networkView { get { return _networkView ? _networkView : (_networkView = GetComponent<NetworkView>()); } }
+        ///// <summary>
+        ///// Gets the NetworkView attached to the object.
+        ///// </summary>
+        //public new NetworkView networkView { get { return _networkView ? _networkView : (_networkView = GetComponent<NetworkView>()); } }
 
         [HideInInspector, NonSerialized]
         private ParticleSystem _particleSystem;
