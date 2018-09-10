@@ -1,0 +1,12 @@
+{
+    "name": "SortingLayerEditor",
+    "references": [
+        "UnityToolbag"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

@@ -1,0 +1,12 @@
+{
+    "name": "SyncSolutionEditor",
+    "references": [
+        "UnityToolbag"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}
