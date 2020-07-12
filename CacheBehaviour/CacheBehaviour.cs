@@ -58,22 +58,6 @@ namespace UnityToolbag
         public new ConstantForce constantForce { get { return _constantForce ? _constantForce : (_constantForce = GetComponent<ConstantForce>()); } }
 
         [HideInInspector, NonSerialized]
-        private GUIText _guiText;
-
-        /// <summary>
-        /// Gets the GUIText attached to the object.
-        /// </summary>
-        public new GUIText guiText { get { return _guiText ? _guiText : (_guiText = GetComponent<GUIText>()); } }
-
-        [HideInInspector, NonSerialized]
-        private GUITexture _guiTexture;
-
-        /// <summary>
-        /// Gets the GUITexture attached to the object.
-        /// </summary>
-        public new GUITexture guiTexture { get { return _guiTexture ? _guiTexture : (_guiTexture = GetComponent<GUITexture>()); } }
-
-        [HideInInspector, NonSerialized]
         private HingeJoint _hingeJoint;
 
         /// <summary>
